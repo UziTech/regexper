@@ -22,7 +22,7 @@
     "babel-loader": "^8.2.2",
     "canopy": "^0.2.0",
     "core-js": "^3.15.2",
-    "css-loader": "^6.1.0",
+    "css-loader": "^6.2.0",
     "del": "^6.0.0",
     "docco": "^0.8.1",
     "eslint": "^7.31.0",
