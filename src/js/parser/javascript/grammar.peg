@@ -1,9 +1,12 @@
 grammar JavascriptRegexp
-  root <- ( ( "/" regexp "/" flags:[yigmus]* ) / regexp flags:""? ) <Root>
+  root <- ( ( "/" regexp "/" flags:[yigmus]* ) / regexp:regexp_slash flags:""? ) <Root>
   regexp <- match:match alternates:( "|" match )* <Regexp>
+  regexp_slash <- match:match_slash alternates:( "|" match_slash )* <Regexp>
   match <- (!repeat) parts:match_fragment* <Match>
+  match_slash <- (!repeat) parts:match_fragment_slash* <Match>
   anchor <- ( "^" / "$" ) <Anchor>
   match_fragment <- content:( anchor / subexp / charset / terminal ) repeat:repeat? <MatchFragment>
+  match_fragment_slash <- content:( anchor / subexp_slash / charset / terminal_slash ) repeat:repeat? <MatchFragment>
   repeat <- spec:( repeat_any / repeat_required / repeat_optional / repeat_spec ) modifier:[?]? <Repeat>
   repeat_any <- "*" <RepeatAny>
   repeat_required <- "+" <RepeatRequired>
@@ -12,6 +15,7 @@ grammar JavascriptRegexp
                  / "{" min:[0-9]+ ",}"
                  / "{" exact:[0-9]+ "}" ) <RepeatSpec>
   subexp <- "(" capture:( "?<" groupname:name ">" / "?:" / "?=" / "?!" / "?<=" / "?<!" )? regexp ")" <Subexp>
+  subexp_slash <- "(" capture:( "?<" groupname:name ">" / "?:" / "?=" / "?!" / "?<=" / "?<!" )? regexp_slash ")" <Subexp>
   name <- alpha (alpha / numeric)*
   alpha <- [a-zA-Z]
   numeric <- [0-9]
@@ -41,6 +45,9 @@ grammar JavascriptRegexp
   terminal <- "." <AnyCharacter>
             / escape <Escape>
             / literal <Literal>
+  terminal_slash <- "." <AnyCharacter>
+            / escape <Escape>
+            / literal_slash <Literal>
   escape <- "\\" esc:(
          code:[bBdDfnrsStvwW1-9] arg:""?
        / control_escape
@@ -48,9 +55,10 @@ grammar JavascriptRegexp
        / hex_escape
        / unicode_escape
        / null_escape )
-  literal <- ( ""? literal:[^|\\/.\[\(\)?+*$^] )
+  literal <- ( ""? literal:[^|\\./\[()?+*$^] )
            / ( literal:"\\" &"c" )
            / ( "\\" literal:. )
+  literal_slash <- literal / ( ""? literal:"/" )
 
   control_escape <- code:"c" arg:[a-zA-Z]
   octal_escape <- code:"0" arg:[0-7]+
