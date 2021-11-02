@@ -8,13 +8,12 @@ on:
 jobs:
 
   Test:
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
       - name: Install Node
-        uses: dcodeIO/setup-node-nvm@master
+        uses: actions/setup-node@v2
         with:
           node-version: 'lts/*'
       - name: Install Dependencies
@@ -23,22 +22,44 @@ jobs:
         run: yarn test
 
   Lint:
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 'lts/*'
       - name: Install Dependencies
         run: yarn
       - name: Lint ✨
         run: yarn lint
 
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 'lts/*'
+      - name: Install Dependencies
+        run: yarn
+      - name: Build 🧱
+        run: yarn build
+
   Deploy:
-    needs: [Test, Lint]
+    needs: [Test, Lint, Build]
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 'lts/*'
       - name: Install Dependencies
         run: yarn
       - name: Build Site
@@ -48,10 +69,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-
-  Skip:
-    if: contains(github.event.head_commit.message, '[skip ci]')
-    runs-on: ubuntu-latest
-    steps:
-      - name: Skip CI 🚫
-        run: echo skip ci
