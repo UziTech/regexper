@@ -4777,7 +4777,7 @@ gulp-connect@^5.7.0:
   dependencies:
     docco "^0.9.1"
     gulp-util "^3.0.8"
-    marked "^4.0.6"
+    marked "^4.0.7"
     through2 "^4.0.2"
     underscore "^1.13.1"
     vinyl-fs "^3.0.3"
@@ -6119,10 +6119,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.6.tgz#cd199503102b6807354f00574348d41ad4fd25d2"
-  integrity sha512-+H0bTf8DM8zLuFBUm/2VklxaCrwlBFgoJzHJcMZCnZ9cPgsllHwKpL6TPLdDeA38yPluMuVKOL1hO5w6HmG5Mg==
+marked@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.7.tgz#596a0826e7a8c6b4119eacd00b0220ddaee7fc71"
+  integrity sha512-mQrRvV2vRk7DHZsWsYJfAjmBo+lSYPhTJPThaaGpkEfmC+4oefeug2txZniQTieDS0CFpokfVhd7JuS5GtnHhA==
 
 "marked@~ 4.0.3":
   version "4.0.3"
@@ -7145,10 +7145,10 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer@^12.0.1:
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-12.0.1.tgz#ae79d0e174a07563e0bf2e05c94ccafce3e70033"
-  integrity sha512-YQ3GRiyZW0ddxTW+iiQcv2/8TT5c3+FcRUCg7F8q2gHqxd5akZN400VRXr9cHQKLWGukmJLDiE72MrcLK9tFHQ==
+puppeteer@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-13.0.0.tgz#f241d9bbbe5c8388da922f4f6ea3f84866e17f81"
+  integrity sha512-kZfGAieIVSo4bFqYuvY2KvhgP9txzmPbbnpZIzLlfdt8nEu9evXEwsbBt1BHocVQM4fJmCiS+FRyw7c8aWadNg==
   dependencies:
     debug "4.3.2"
     devtools-protocol "0.0.937139"
