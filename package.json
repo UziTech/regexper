@@ -39,7 +39,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-util": "^3.0.8",
     "handlebars-layouts": "^3.1.4",
-    "karma": "^6.3.17",
+    "karma": "^6.3.18",
     "karma-chrome-launcher": "^3.1.1",
     "karma-jasmine": "^5.0.0",
     "karma-sourcemap-loader": "^0.3.8",
