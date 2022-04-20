@@ -19,7 +19,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
-    "babel-loader": "^8.2.4",
+    "babel-loader": "^8.2.5",
     "canopy": "^0.2.0",
     "core-js": "^3.22.0",
     "css-loader": "^6.7.1",
