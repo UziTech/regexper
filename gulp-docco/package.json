@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "event-stream": "^4.0.1",
-    "jest": "^28.0.2"
+    "jest": "^28.0.3"
   },
   "private": false
 }
