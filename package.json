@@ -21,7 +21,7 @@
     "@babel/preset-env": "^7.18.2",
     "babel-loader": "^8.2.5",
     "canopy": "^0.2.0",
-    "core-js": "^3.22.7",
+    "core-js": "^3.22.8",
     "css-loader": "^6.7.1",
     "del": "^6.1.1",
     "docco": "^0.9.1",
