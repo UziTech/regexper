@@ -17,8 +17,8 @@
     "start": "gulp"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.0",
-    "@babel/preset-env": "^7.19.0",
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
     "babel-loader": "^8.2.5",
     "canopy": "^0.2.0",
     "core-js": "^3.25.1",
