@@ -1770,6 +1770,11 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
+abbrev@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-2.0.0.tgz#cf59829b8b4f03f89dda2771cb7f3653828c89bf"
+  integrity sha512-6/mh1E2u2YgEsCHdY0Yx5oW+61gZU+1vXaoiHHrpKeuRNNgFvS+/jrwHiQhB5apAf5oB7UB7E19ol2R2LKH8hQ==
+
 accepts@~1.3.4:
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"
@@ -3250,10 +3255,14 @@ caniuse-lite@^1.0.30001370:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001399.tgz#1bf994ca375d7f33f8d01ce03b7d5139e8587873"
   integrity sha512-4vQ90tMKS+FkvuVWS5/QY1+d805ODxZiKFzsU8o/RsVJz49ZSRR8EjykLJbqhzdPgadbX6wB538wOzle3JniRA==
 
-canopy@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/canopy/-/canopy-0.2.0.tgz#ed6f60489d5fe90fc547f73b175ab1e6120292b5"
-  integrity sha1-7W9gSJ1f6Q/FR/c7F1qx5hICkrU=
+canopy@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/canopy/-/canopy-0.4.0.tgz#ef16d499f474ee77309c8677a51caa44f7ca7dbd"
+  integrity sha512-csQarBGJkn4Nfu0T7N1S0n/CQ/s90EVIfU480Q6NKLwP+8o1vD4RDTA6wqV6mHz5bRsrjsr4+ke6fDLkhCUGCQ==
+  dependencies:
+    handlebars ">=4.0.0"
+    mkdirp ">=1.0.0"
+    nopt "*"
 
 chalk@^1.0.0, chalk@^1.1.3:
   version "1.1.3"
@@ -5198,6 +5207,18 @@ handlebars-wax@^6.1.0:
     object-assign "^4.1.1"
     require-glob "^3.2.0"
 
+handlebars@>=4.0.0:
+  version "4.7.7"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
+  integrity sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==
+  dependencies:
+    minimist "^1.2.5"
+    neo-async "^2.6.0"
+    source-map "^0.6.1"
+    wordwrap "^1.0.0"
+  optionalDependencies:
+    uglify-js "^3.1.4"
+
 handlebars@^4.1.0:
   version "4.7.6"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.6.tgz#d4c05c1baf90e9945f77aa68a7a219aa4a7df74e"
@@ -6771,6 +6792,11 @@ mkdirp-classic@^0.5.2:
   resolved "https://registry.yarnpkg.com/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz#fa10c9115cc6d8865be221ba47ee9bed78601113"
   integrity sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==
 
+mkdirp@>=1.0.0:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-2.1.3.tgz#b083ff37be046fd3d6552468c1f0ff44c1545d1f"
+  integrity sha512-sjAkg21peAG9HS+Dkx7hlG9Ztx7HLeKnvB3NQRcu/mltCVmvkF0pisbiTSfDVYTT86XEfZrTUosLdZLStquZUw==
+
 mkdirp@^0.5.1, mkdirp@^0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
@@ -6970,6 +6996,13 @@ node.extend@^2.0.2:
   dependencies:
     has "^1.0.3"
     is "^3.2.1"
+
+nopt@*:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/nopt/-/nopt-7.0.0.tgz#09220f930c072109c98ef8aaf39e1d5f0ff9b0d4"
+  integrity sha512-e6Qw1rcrGoSxEH0hQ4GBSdUjkMOtXGhGFXdNT/3ZR0S37eR9DMj5za3dEDWE6o1T3/DP8ZOsPP4MIiky0c3QeA==
+  dependencies:
+    abbrev "^2.0.0"
 
 nopt@^5.0.0:
   version "5.0.0"
