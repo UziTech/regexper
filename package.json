@@ -40,7 +40,7 @@
     "gulp-util": "^3.0.8",
     "handlebars-layouts": "^3.1.4",
     "karma": "^6.4.1",
-    "karma-chrome-launcher": "^3.1.1",
+    "karma-chrome-launcher": "^3.2.0",
     "karma-jasmine": "^5.1.0",
     "karma-sourcemap-loader": "^0.4.0",
     "karma-webpack": "^5.0.0",
