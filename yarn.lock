@@ -3629,10 +3629,10 @@ core-js@^2.4.0, core-js@^2.5.0:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
 
-core-js@^3.32.1:
-  version "3.32.1"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.32.1.tgz#a7d8736a3ed9dd05940c3c4ff32c591bb735be77"
-  integrity sha512-lqufgNn9NLnESg5mQeYsxQP5w7wrViSj0jr/kv6ECQiByzQkrn1MKvV0L3acttpDqfQrHLwr2KCMgX5b8X+lyQ==
+core-js@^3.32.2:
+  version "3.32.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.32.2.tgz#172fb5949ef468f93b4be7841af6ab1f21992db7"
+  integrity sha512-pxXSw1mYZPDGvTQqEc5vgIb83jGQKFGYWY76z4a7weZXUolw3G+OvpZqSRcfYOoOVUQJYEPsWeQK8pKEnUtWxQ==
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -5222,7 +5222,7 @@ gulp-connect@^5.7.0:
   dependencies:
     docco "^0.9.1"
     gulp-util "^3.0.8"
-    marked "^8.0.0"
+    marked "^8.0.1"
     through2 "^4.0.2"
     underscore "^1.13.6"
     vinyl-fs "^4.0.0"
@@ -6656,10 +6656,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-8.0.0.tgz#e808c02daf9d72485477d3ff9a4e193fec94a4db"
-  integrity sha512-RI/D5csFVreNrFchdKFSdV38GDHJdD7OdmbNWYzGvApPb0A9pyypgfHC/FBH4ugmRE8cr7yg/TH7tu8585eMhA==
+marked@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-8.0.1.tgz#62005c60d88926ef4b4a45e51ac76c5076c6e63d"
+  integrity sha512-eEbeEb/mJwh+sNLEhHOWtxMgjN/NEwZUBs1nkiIH2sTQTq07KmPMQ48ihyvo5+Ya56spVOPhunfGr6406crCVA==
 
 "marked@~ 4.0.3":
   version "4.0.3"
