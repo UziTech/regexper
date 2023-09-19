@@ -7905,10 +7905,10 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer-core@21.3.0:
-  version "21.3.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-21.3.0.tgz#9b56bd944d04089a3163cdc652b7f25847537bb5"
-  integrity sha512-3+KR7blDHZEGYhe/9Xpj7vl13MAXKhnnSfajEs6hlTY4FtPMfa/fXMuxZtWbQO0/s0B5QASmVmtO7wZScJ4Cgw==
+puppeteer-core@21.3.1:
+  version "21.3.1"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-21.3.1.tgz#806c317c36f543b2f2c7362a5c1c3c64e5c57fc5"
+  integrity sha512-3VrCDEAHk0hPvE8qtfKgsT8CzRuaQrDQGXdCOuMFJM7Ap+ghpQzhPa9H3DE3gZgwDvC5Jt7SxUkAWLCeNbD0xw==
   dependencies:
     "@puppeteer/browsers" "1.7.1"
     chromium-bidi "0.4.27"
@@ -7917,14 +7917,14 @@ puppeteer-core@21.3.0:
     devtools-protocol "0.0.1179426"
     ws "8.14.1"
 
-puppeteer@^21.3.0:
-  version "21.3.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-21.3.0.tgz#bd647cbd792b6a1cd6ae3878c3f51bc1110bd948"
-  integrity sha512-+PLO2dLos4Kh+97yUrWD8t+hpN9Eq84vH3AQi7Qtc6VV1ucRSimhPr94etgJS6rZDorbviWlm+3i6XvFSJNhsg==
+puppeteer@^21.3.1:
+  version "21.3.1"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-21.3.1.tgz#0196d6f9fcdd6c2f97948d64f2dd7ee8187174b1"
+  integrity sha512-MhDvA+BYmzx+9vHJ/ZtknhlPbSPjTlHQnW1QYfkGpBcGW2Yy6eMahjkNuhAzN29H9tb47IcT0QsVcUy3Txx+SA==
   dependencies:
     "@puppeteer/browsers" "1.7.1"
     cosmiconfig "8.3.6"
-    puppeteer-core "21.3.0"
+    puppeteer-core "21.3.1"
 
 qjobs@^1.2.0:
   version "1.2.0"
