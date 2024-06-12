@@ -3744,10 +3744,10 @@ detective@^5.2.0:
     defined "^1.0.0"
     minimist "^1.1.1"
 
-devtools-protocol@0.0.1286932:
-  version "0.0.1286932"
-  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1286932.tgz#2303707034426fe0b39012713d4b7339f7dbc815"
-  integrity sha512-wu58HMQll9voDjR4NlPyoDEw1syfzaBNHymMMZ/QOXiHRNluOnDgu9hp1yHOKYoMlxCh4lSSiugLITe6Fvu1eA==
+devtools-protocol@0.0.1299070:
+  version "0.0.1299070"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1299070.tgz#b3e4cf0b678a46f0f907ae6e07e03ad3a53c00df"
+  integrity sha512-+qtL3eX50qsJ7c+qVyagqi7AWMoQCBGNfoyJZMwm/NSXVqLYbuitrWEEIzxfUmTNy7//Xe8yhMmQ+elj3uAqSg==
 
 di@^0.0.1:
   version "0.0.1"
@@ -4917,7 +4917,7 @@ gulp-connect@^5.7.0:
   dependencies:
     docco "^0.9.1"
     gulp-util "^3.0.8"
-    marked "^12.0.2"
+    marked "^13.0.0"
     through2 "^4.0.2"
     underscore "^1.13.6"
     vinyl-fs "^4.0.0"
@@ -6317,10 +6317,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^12.0.2:
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-12.0.2.tgz#b31578fe608b599944c69807b00f18edab84647e"
-  integrity sha512-qXUm7e/YKFoqFPYPa3Ukg9xlI5cyAtGmyEIzMfW//m6kXwCy2Ps9DYf5ioijFKQ8qyuscrHoY04iJGctu2Kg0Q==
+marked@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-13.0.0.tgz#c18cda8a1fd0055859060c971e30f57beb79fd46"
+  integrity sha512-VTeDCd9txf4KLLljUZ0nljE/Incb9SrWuueE44QVuU0pkOdh4sfCeW1Z6lPcxyDRSVY6rm8db/0OPaN75RNUmw==
 
 "marked@~ 4.0.3":
   version "4.0.3"
@@ -7392,26 +7392,26 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer-core@22.10.1:
-  version "22.10.1"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-22.10.1.tgz#b2ad26480a7c148f9cacbe10d97b48afc2197358"
-  integrity sha512-t98x55ohn6eioM/e1dmhy6bG9iuQ+mvpNXyr+UppB789uvNKKOvy9YnWpKp4mVyKxi9BGsceHAFuovQGqQKyCQ==
+puppeteer-core@22.11.0:
+  version "22.11.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-22.11.0.tgz#82b77f306c3665d65a1ad0115402c98ee404baee"
+  integrity sha512-57YUjhRoSpZWg9lCssWsgzM1/X/1jQnkKbbspbeW0bhZTt3TD4WdNXEYI7KrFFnSvx21tyHhfWW0zlxzbwYSAA==
   dependencies:
     "@puppeteer/browsers" "2.2.3"
     chromium-bidi "0.5.23"
     debug "4.3.5"
-    devtools-protocol "0.0.1286932"
+    devtools-protocol "0.0.1299070"
     ws "8.17.0"
 
-puppeteer@^22.10.1:
-  version "22.10.1"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-22.10.1.tgz#b687b9a20c6b0ebc38f5fa4ef103d88ac286f03c"
-  integrity sha512-yFT7BlyIa4B1SnE6ccBVt+nYpDNTtZtwNh9tL79d6eWlGh94YrdzQDH+WtG88mCuQIcjjcJgvTRfm8uljuMgUQ==
+puppeteer@^22.11.0:
+  version "22.11.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-22.11.0.tgz#290eeff6e993d8258c59333d2454079aad75c2ff"
+  integrity sha512-U5U0Dx5Tsd/ec39BmflhcSFIK9UnZxGQfyUzvQVHivt6gIi6RgJqYL9MJaU90OG6tTz65XqzN4wF0ZyDyY0NuA==
   dependencies:
     "@puppeteer/browsers" "2.2.3"
     cosmiconfig "9.0.0"
-    devtools-protocol "0.0.1286932"
-    puppeteer-core "22.10.1"
+    devtools-protocol "0.0.1299070"
+    puppeteer-core "22.11.0"
 
 qjobs@^1.2.0:
   version "1.2.0"
