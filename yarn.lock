@@ -4529,10 +4529,10 @@ globals@^14.0.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-14.0.0.tgz#898d7413c29babcf6bafe56fcadded858ada724e"
   integrity sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==
 
-globals@^15.13.0:
-  version "15.13.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-15.13.0.tgz#bbec719d69aafef188ecd67954aae76a696010fc"
-  integrity sha512-49TewVEz0UxZjr1WYYsWpPrhyC/B/pA8Bq0fUmet2n+eR7yn0IvNzNaoBwnK6mdkzcN+se7Ez9zUgULTz2QH4g==
+globals@^15.14.0:
+  version "15.14.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-15.14.0.tgz#b8fd3a8941ff3b4d38f3319d433b61bbb482e73f"
+  integrity sha512-OkToC372DtlQeje9/zHIo5CT8lRP/FUgEOKBEhU4e0abL7J7CD24fD9ohiLN5hagG/kWCYj4K5oaxxtj2Z0Dig==
 
 globals@^9.18.0:
   version "9.18.0"
@@ -4639,7 +4639,7 @@ gulp-connect@^5.7.0:
   dependencies:
     docco "^0.9.1"
     gulp-util "^3.0.8"
-    marked "^15.0.3"
+    marked "^15.0.4"
     through2 "^4.0.2"
     underscore "^1.13.7"
     vinyl-fs "^4.0.0"
@@ -5892,10 +5892,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^15.0.3:
-  version "15.0.3"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-15.0.3.tgz#f75ae6ca71aeeaea0cfa2c2f120016ac8373aede"
-  integrity sha512-Ai0cepvl2NHnTcO9jYDtcOEtVBNVYR31XnEA3BndO7f5As1wzpcOceSUM8FDkNLJNIODcLpDTWay/qQhqbuMvg==
+marked@^15.0.4:
+  version "15.0.4"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-15.0.4.tgz#864dbf50227b6507646c771c2ef5f0de2924833e"
+  integrity sha512-TCHvDqmb3ZJ4PWG7VEGVgtefA5/euFmsIhxtD0XsBxI39gUSKL81mIRFdt0AiNQozUahd4ke98ZdirExd/vSEw==
 
 "marked@~ 4.0.3":
   version "4.0.3"
