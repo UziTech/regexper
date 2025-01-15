@@ -8,6 +8,8 @@ on:
 jobs:
 
   Test:
+    # need to use 22.04 because of
+    # https://github.com/puppeteer/puppeteer/issues/12818#issuecomment-2415915338
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Code
