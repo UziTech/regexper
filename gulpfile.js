@@ -13,6 +13,8 @@ const webpack = require('webpack');
 const webpackConfig = require('./webpack.config');
 const fs = require('fs');
 
+console.log(del);
+
 
 function watch() {
   gulp.watch(config.globs.other, staticFiles);
