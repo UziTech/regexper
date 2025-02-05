@@ -6,11 +6,8 @@ on:
       - master
 
 jobs:
-
   Test:
-    # need to use 22.04 because of
-    # https://github.com/puppeteer/puppeteer/issues/12818#issuecomment-2415915338
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -21,7 +18,7 @@ jobs:
       - name: Install Dependencies
         run: yarn
       - name: Run Tests 👩🏽‍💻
-        run: yarn test
+        run: yarn test -- --no-sandbox
 
   Lint:
     runs-on: ubuntu-latest
