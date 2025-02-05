@@ -10,7 +10,11 @@ module.exports = function(karma) {
     reporters: ['progress'],
     colors: true,
     logLevel: karma.LOG_INFO,
-    browsers: ['ChromeHeadless'],
+    browsers: ['ChromeHeadlessNoSandbox'],
+    customLaunchers: {
+      base: 'ChromeHeadless',
+      flags: ['--no-sandbox'],
+    },
     autoWatch: true,
     singleRun: false,
     webpack: {
