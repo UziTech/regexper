@@ -18,7 +18,7 @@ jobs:
       - name: Install Dependencies
         run: yarn
       - name: Run Tests 👩🏽‍💻
-        run: yarn test -- --no-sandbox
+        run: yarn test
 
   Lint:
     runs-on: ubuntu-latest
