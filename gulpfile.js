@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const notify = require('gulp-notify');
 const folderToc = require('folder-toc');
 const docco = require('gulp-docco');
-const del = require("del");
+const {deleteSync} = require("del");
 const connect = require('gulp-connect');
 const hb = require('gulp-hb');
 const frontMatter = require('gulp-front-matter');
@@ -12,9 +12,6 @@ const gutil = require('gulp-util');
 const webpack = require('webpack');
 const webpackConfig = require('./webpack.config');
 const fs = require('fs');
-
-console.log(del);
-
 
 function watch() {
   gulp.watch(config.globs.other, staticFiles);
@@ -95,15 +92,15 @@ function markup() {
 }
 
 function discard() {
-  return del('build/__discard__');
+  return deleteSync('build/__discard__');
 }
 
 function cleanBuild() {
-  return del('build');
+  return deleteSync('build');
 }
 
 function cleanDocs() {
-  return del('docs');
+  return deleteSync('docs');
 }
 
 function buildFiles(callback) {
