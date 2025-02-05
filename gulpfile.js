@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const notify = require('gulp-notify');
 const folderToc = require('folder-toc');
 const docco = require('gulp-docco');
-const del = require("del");
+const {deleteAsync} = require("del");
 const connect = require('gulp-connect');
 const hb = require('gulp-hb');
 const frontMatter = require('gulp-front-matter');
@@ -93,15 +93,15 @@ function markup() {
 }
 
 function discard() {
-  return del('build/__discard__');
+  return deleteAsync('build/__discard__');
 }
 
 function cleanBuild() {
-  return del('build');
+  return deleteAsync('build');
 }
 
 function cleanDocs() {
-  return del('docs');
+  return deleteAsync('docs');
 }
 
 function buildFiles(callback) {
