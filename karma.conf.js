@@ -12,8 +12,10 @@ module.exports = function(karma) {
     logLevel: karma.LOG_INFO,
     browsers: ['ChromeHeadlessNoSandbox'],
     customLaunchers: {
-      base: 'ChromeHeadless',
-      flags: ['--no-sandbox'],
+      ChromeHeadlessNoSandbox: {
+        base: 'ChromeHeadless',
+        flags: ['--no-sandbox'],
+      },
     },
     autoWatch: true,
     singleRun: false,
