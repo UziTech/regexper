@@ -30,7 +30,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "docco": "^0.9.1",
+    "docco": "^0.9.2",
     "gulp-util": "^3.0.8",
     "marked": "^15.0.7",
     "through2": "^4.0.2",
