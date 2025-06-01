@@ -35,7 +35,7 @@
     "marked": "^15.0.12",
     "through2": "^4.0.2",
     "underscore": "^1.13.7",
-    "vinyl-fs": "^4.0.0"
+    "vinyl-fs": "^4.0.1"
   },
   "devDependencies": {
     "event-stream": "^4.0.1",
