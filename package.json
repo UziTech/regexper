@@ -32,7 +32,7 @@
     "extract-loader": "^5.1.0",
     "file-loader": "^6.2.0",
     "folder-toc": "^0.3.1",
-    "globals": "^16.5.0",
+    "globals": "^17.0.0",
     "gulp": "^5.0.1",
     "gulp-connect": "^5.7.0",
     "gulp-docco": "file:gulp-docco",
