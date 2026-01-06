@@ -47,7 +47,7 @@
     "karma-jasmine": "^5.1.0",
     "karma-sourcemap-loader": "^0.4.0",
     "karma-webpack": "^5.0.1",
-    "sass": "^1.97.1",
+    "sass": "^1.97.2",
     "puppeteer": "^24.34.0",
     "regenerator-runtime": "^0.14.1",
     "sass-loader": "^16.0.6",
