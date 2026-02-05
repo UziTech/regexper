@@ -48,7 +48,7 @@
     "karma-sourcemap-loader": "^0.4.0",
     "karma-webpack": "^5.0.1",
     "sass": "^1.97.3",
-    "puppeteer": "^24.37.0",
+    "puppeteer": "^24.37.1",
     "regenerator-runtime": "^0.14.1",
     "sass-loader": "^16.0.6",
     "snapsvg-cjs": "^0.0.6",
