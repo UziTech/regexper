@@ -2188,10 +2188,10 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-loader@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-10.0.0.tgz#b9743714c0e1e084b3e4adef3cd5faee33089977"
-  integrity sha512-z8jt+EdS61AMw22nSfoNJAZ0vrtmhPRVi6ghL3rCeRZI8cdNYFiV5xeV3HbE7rlZZNmGH8BVccwWt8/ED0QOHA==
+babel-loader@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-10.1.0.tgz#3ac62a9a47dba6b1be77fb24764ec5784981fbbe"
+  integrity sha512-5HTUZa013O4SWEYlJDHexrqSIYkWatfA9w/ZZQa7V2nMc0dRWkfu/0pmioC7XMYm8M7Z/3+q42NWj6e+fAT0MQ==
   dependencies:
     find-up "^5.0.0"
 
@@ -4764,7 +4764,7 @@ gulp-connect@^5.7.0:
   dependencies:
     docco "^0.9.2"
     gulp-util "^3.0.8"
-    marked "^17.0.3"
+    marked "^17.0.4"
     through2 "^4.0.2"
     underscore "^1.13.8"
     vinyl-fs "^4.0.2"
@@ -6004,10 +6004,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^17.0.3:
-  version "17.0.3"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-17.0.3.tgz#0defa25b1ba288433aa847848475d11109e1b3fd"
-  integrity sha512-jt1v2ObpyOKR8p4XaUJVk3YWRJ5n+i4+rjQopxvV32rSndTJXvIzuUdWWIy/1pFQMkQmvTXawzDNqOH/CUmx6A==
+marked@^17.0.4:
+  version "17.0.4"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-17.0.4.tgz#38293b06b0605db39107803f3398938bbbed1b28"
+  integrity sha512-NOmVMM+KAokHMvjWmC5N/ZOvgmSWuqJB8FoYI019j4ogb/PeRMKoKIjReZ2w3376kkA8dSJIP8uD993Kxc0iRQ==
 
 "marked@~ 4.0.3":
   version "4.0.3"
