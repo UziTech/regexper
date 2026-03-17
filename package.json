@@ -23,7 +23,7 @@
     "@eslint/js": "^10.0.1",
     "babel-loader": "^10.1.1",
     "canopy": "^0.2.0",
-    "core-js": "^3.48.0",
+    "core-js": "^3.49.0",
     "css-loader": "^7.1.4",
     "del": "^8.0.1",
     "docco": "^0.9.2",
