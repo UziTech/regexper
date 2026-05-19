@@ -1,6 +1,6 @@
-process.env.CHROME_BIN = require('puppeteer').executablePath();
-
-module.exports = function(karma) {
+module.exports = async function(karma) {
+  const puppeteer = require('puppeteer');
+  process.env.CHROME_BIN = await puppeteer.executablePath();
   karma.set({
     frameworks: ['jasmine'],
     files: ['spec/test_index.js'],
