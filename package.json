@@ -18,8 +18,8 @@
     "start": "gulp"
   },
   "devDependencies": {
-    "@babel/core": "^8.0.0",
-    "@babel/preset-env": "^8.0.0",
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.1",
     "@eslint/js": "^10.0.1",
     "babel-loader": "^10.1.1",
     "canopy": "^0.2.0",
