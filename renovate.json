@@ -5,14 +5,8 @@
   "automerge": true,
   "rangeStrategy": "bump",
   "includeForks": true,
-  "packageRules": [
-    {
-      "description": "Disable updates since updates won't work.",
-      "matchPackageNames": [
-        "canopy",
-        "eve"
-      ],
-      "enabled": false
-    }
+  "ignoreDeps": [
+    "canopy",
+    "eve"
   ]
 }
