@@ -4054,10 +4054,10 @@ global-prefix@^1.0.1:
     is-windows "^1.0.1"
     which "^1.2.14"
 
-globals@^17.8.0:
-  version "17.8.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-17.8.0.tgz#a1f213a06adcd0eec38004c5cd39fef7af7e0830"
-  integrity sha512-Zz/LMDZScFmkakeL2cTHzf+PbWKdpU3uclqkZT7TjDG58j5WPt0PpA+n9uPI24fZtlw07q0OtEi84K+umsRzqQ==
+globals@^17.9.0:
+  version "17.9.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-17.9.0.tgz#e43f252d6bbe71508da43902a1709c8895a59f70"
+  integrity sha512-m/MvAW61QVU5VDNF1Vj8axt016h8w7L5TU1e9zlab7XIttAT2YAlCwl75K1fOqvMM9apmD7lbCIRhpfkhmxhCg==
 
 globals@^9.18.0:
   version "9.18.0"
@@ -4165,7 +4165,7 @@ gulp-connect@^5.7.0:
     docco "^0.9.2"
     gulp-util "^3.0.8"
     marked "^18.0.7"
-    through2 "^5.0.7"
+    through2 "^5.0.11"
     underscore "^1.13.8"
     vinyl-fs "^4.0.2"
 
@@ -7172,10 +7172,10 @@ through2@^4.0.2:
   dependencies:
     readable-stream "3"
 
-through2@^5.0.7:
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/through2/-/through2-5.0.7.tgz#8a870cf8615def40f6d6fdfbcb8635c3a1a7bba5"
-  integrity sha512-ytICWBdjN/Ed1hloUiKIt9qvVcmwD3q/4iU49Juo31xpGVxuqBp6lla4KtdeclR41GPABJS5OLTrpoBEbK2Ovw==
+through2@^5.0.11:
+  version "5.0.11"
+  resolved "https://registry.yarnpkg.com/through2/-/through2-5.0.11.tgz#e2c9249f312429993b8f8ca03a9b11d4edda11b9"
+  integrity sha512-g3ACuADXGxvApYBg83YNLCSGeQUkKnXjH0FEBLmtap5vDN6pFfLr8uhVUqynb704X6Q3KpgLW2enSZ7WE+Vp5A==
   dependencies:
     readable-stream "^4.7.0"
 
