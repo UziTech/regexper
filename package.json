@@ -50,7 +50,7 @@
     "sass": "^1.106.1",
     "puppeteer": "^25.16.0",
     "regenerator-runtime": "^0.14.1",
-    "sass-loader": "^17.0.1",
+    "sass-loader": "^17.1.0",
     "snapsvg-cjs": "^0.0.6",
     "watchify": "^4.0.0",
     "webpack": "^5.112.2"
